@@ -117,7 +117,6 @@ public void sendMessage(){
 
               incoming.append(" "+message+"\n");
 
-                   Thread.sleep(500);
              }
          }catch(Exception ex){
              System.out.println( "ошибка "+ex.getMessage() );
